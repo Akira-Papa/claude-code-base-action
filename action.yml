@@ -121,7 +121,7 @@ runs:
         npm cache clean --force 2>/dev/null || true
         
         # forceオプション付きでインストール
-        npm install -g @anthropic-ai/claude-code@1.0.2 --force
+        npm install -g @anthropic-ai/claude-code@1.0.33 --force
 
     - name: Run Claude Code Action
       shell: bash
